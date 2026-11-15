@@ -3,22 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex">
-  <title>SMS Dove Data Deletion Information</title>
+  <meta name="description" content="Delete SMS Dove local data, revoke Google access, remove forwarded Sheets copies and contact TonyAppsLab.">
+  <title>SMS Dove Data Deletion</title>
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-<main>
-  <h1>SMS Dove Data Deletion Information</h1>
-  <p class="updated">Draft — November 15, 2026 · Not yet effective</p>
-  <p>These instructions are a draft. Verified deletion procedures for SMS Dove will be added before publication.</p>
-  <h2>Local Data</h2>
-  <p>To be completed: what data is stored on the device, how to delete it, and whether backups may restore it.</p>
-  <h2>Forwarded or Remotely Stored Data</h2>
-  <p>To be completed: whether data is transmitted to other services or recipients, and how deletion is handled for those copies, if applicable.</p>
-  <h2>Accounts and Support</h2>
-  <p>To be completed: whether SMS Dove provides user accounts, applicable account deletion steps, and the verified support contact.</p>
-  <p><a href="../">Privacy policy</a></p>
+<a class="skip-link" href="#content">Skip to content</a>
+<header><nav aria-label="Policy pages"><a href="../">Privacy policy</a><a href="./" aria-current="page">Data deletion</a><a href="#7-request-deletion-of-information-held-by-tonyappslab">Contact</a></nav></header>
+<main id="content" tabindex="-1">
+<h1>SMS Dove Data Deletion</h1>
+<p class="updated">Last updated: November 15, 2026</p>
+<p>SMS Dove is provided by TonyAppsLab. Its message queue and settings are stored on your Android device; forwarded copies are stored in the Google Sheets destinations you chose. Follow the steps for each location below.</p>
+<h2 id="1-stop-new-forwarding">1. Stop new forwarding</h2>
+<p>Turn off the main forwarding switch on SMS Dove&#x27;s Home screen. Existing queued work pauses and new messages do not enter the queue. For Android to stop delivering new SMS to the app, also revoke SMS permission in Android settings.</p>
+<p>A network request already sent may still complete. Stopping forwarding does not undo earlier writes or delete queued messages.</p>
+<h2 id="2-cancel-individual-pending-messages">2. Cancel individual pending messages</h2>
+<p>Open Activity (活動), select a pending destination item and choose the cancellation action. Cancel each outstanding destination associated with the message. The local full message and sender are cleared once all destinations for that message have either succeeded or been cancelled. Cancelling one destination does not cancel other destinations or remove their Google Sheets rows.</p>
+<p>A completed or cancelled result summary can remain locally for 30 days. To remove all local summaries immediately, clear app storage as described next.</p>
+<h2 id="3-delete-all-sms-dove-data-on-your-device">3. Delete all SMS Dove data on your device</h2>
+<p>In Android settings, open Apps → SMS Dove → Storage (or Storage &amp; cache) → Clear storage / Clear data. Labels vary by phone. Alternatively, uninstall SMS Dove.</p>
+<p>This removes the app&#x27;s local rules, destinations, account records, pending SMS, result summaries, Dove balance and reward records. Pending work cannot be recovered through SMS Dove after local data is cleared. The app excludes its data from Android backup and device-transfer rules, but cannot erase copies created outside its control or guarantee physical erasure from flash storage.</p>
+<p>Clearing storage or uninstalling does not delete your phone&#x27;s original SMS messages, your Google account, Google Sheets data or data already held by advertising providers.</p>
+<h2 id="4-revoke-google-access">4. Revoke Google access</h2>
+<p>In SMS Dove&#x27;s Settings (設定), choose “Disconnect and revoke access” (中斷連接並撤銷授權) and confirm. You can also remove SMS Dove from your <a href="https://myaccount.google.com/connections">Google account&#x27;s third-party connections</a>.</p>
+<p>If you plan to clear storage or uninstall, revoke access first or use Google&#x27;s page afterward. Revoking access stops the app&#x27;s authorized Google operations; it does not delete spreadsheets or clear all local records. Reconnecting the same account may allow remaining queued work to resume.</p>
+<h2 id="5-delete-forwarded-google-sheets-copies">5. Delete forwarded Google Sheets copies</h2>
+<p>Open each destination spreadsheet in Google Sheets and delete the relevant rows, or delete the spreadsheet in Google Drive. Review Drive&#x27;s Trash and permanently delete the file there if that is your intention. For a shared spreadsheet, contact its owner if you lack permission.</p>
+<p>Other people may have exported or copied data. Sharing settings, version history and any retained copies are controlled by Google and the relevant account or file owner. SMS Dove cannot recall them. Delete original phone messages separately in your SMS app if desired.</p>
+<h2 id="6-advertising-provider-records">6. Advertising-provider records</h2>
+<p>The current prerelease does not initialize or request ads while privacy messaging setup is incomplete. If you use a version with advertising enabled, clearing app storage does not delete records already held by its providers.</p>
+<p>Use the privacy-request and advertising-choice instructions in the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Game Player and App User Privacy Policy</a> and <a href="https://liftoff.ai/privacy-policy/">Liftoff Privacy Policy</a>. Those providers control verification, retention and deletion of their own records. Android&#x27;s advertising-privacy controls may provide additional choices, depending on your device. Do not send advertising identifiers or other sensitive details to TonyAppsLab unless needed for a specific, explained support request.</p>
+<h2 id="7-request-deletion-of-information-held-by-tonyappslab">7. Request deletion of information held by TonyAppsLab</h2>
+<p>Email <a href="mailto:tonyappslab@gmail.com?subject=SMS%20Dove%20data%20deletion">tonyappslab@gmail.com</a> with the subject “SMS Dove data deletion”. Describe the information you want deleted, such as a support conversation, and preferably use the email address associated with it. Do not include SMS contents, verification codes, passwords or authorization tokens.</p>
+<p>We will assess requests about information we hold directly and explain any applicable legal retention requirement. We cannot access your local queue, delete your Google account or delete Google Sheets or advertising-provider records for you. SMS Dove has no separate TonyAppsLab-hosted account to close.</p>
+<p><a href="../">Read the SMS Dove Privacy Policy</a>.</p>
 </main>
+<footer><p>SMS Dove · TonyAppsLab</p></footer>
 </body>
 </html>
