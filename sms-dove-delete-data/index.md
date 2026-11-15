@@ -38,7 +38,7 @@ Other people may have exported or copied data. Sharing settings, version history
 
 ## 6. Advertising-provider records
 
-The current prerelease does not initialize or request ads while privacy messaging setup is incomplete. If you use a version with advertising enabled, clearing app storage does not delete records already held by its providers.
+In SMS Dove, open Settings → Advertising data options (設定 → 廣告資料選項) and choose “Do not use ads” (不使用廣告) to stop loading or showing new ads. The app requests contextual ads only after you have chosen to use them. Clearing app storage removes your local choice but does not delete records already held by providers or recall requests already sent.
 
 Use the privacy-request and advertising-choice instructions in the [Unity Game Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy) and [Liftoff Privacy Policy](https://liftoff.ai/privacy-policy/). Those providers control verification, retention and deletion of their own records. Android's advertising-privacy controls may provide additional choices, depending on your device. Do not send advertising identifiers or other sensitive details to TonyAppsLab unless needed for a specific, explained support request.
 

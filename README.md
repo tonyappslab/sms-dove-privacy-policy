@@ -9,7 +9,7 @@ SMS Dove 的靜態隱私權與資料刪除網站。開發者與聯絡信箱已�
 - `styles.css`：響應式共用樣式，支援明暗模式、鍵盤焦點及跳至內文。
 - `.github/workflows/static.yml`：僅部署兩個 HTML 頁面與 CSS，不發布 README、Markdown 或本機檔案。
 
-內容依 `sms-to-email-release` 的 Dove Feed 實作核對：新收到的 SMS、本機比對與持久佇列、Google OAuth／drive.file、Google Sheets 轉送、本機資料清除、30 天完成摘要、Dove／獎勵紀錄，以及 Unity LevelPlay／Unity Ads／Liftoff。政策明示目前預覽版廣告未開放；網站完成不代表廣告已啟用，也不取代 App 內的揭露與同意流程。
+內容依 `sms-to-email-release` 的 Dove Feed 實作核對：新收到的 SMS、本機比對與持久佇列、Google OAuth／drive.file、Google Sheets 轉送、本機資料清除、30 天完成摘要、Dove／獎勵紀錄，以及 Unity LevelPlay／Unity Ads／Liftoff。廣告改採 App 內自管選項，只請求非個人化廣告並傳遞 GDPR 拒絕與 CCPA 拒絕出售／分享訊號；不使用 AdMob／UMP，也不宣稱這是 IAB TCF CMP。尚未選擇與拒絕均不啟動新廣告請求，設定可隨時更改。網站不取代 App 內的揭露、選擇與實機驗收。
 
 這不是 WalkMo 政策的直接改名；不宣稱 SMS 永不離開手機、不將撤銷 Google 存取視為刪除資料，也不將清除 App 資料視為刪除遠端或廣告商紀錄。
 
